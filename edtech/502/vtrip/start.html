@@ -1,0 +1,216 @@
+<!DOCTYPE HTML>
+<!--
+	Helios 1.5 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+<title>Visit Egypt</title>
+<link rel="shortcut icon" href="images/favicon(1).ico"/>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="description" content="" />
+<meta name="keywords" content="egypt, visit egypt, luxor, aswan, alexandria, giza, pyramids," />
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.homepage #footer .container {
+	text-align: center;
+}
+</style>
+<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.dropotron.min.js"></script>
+<script src="js/skel.min.js"></script>
+<script src="js/skel-panels.min.js"></script>
+<script src="js/init.js"></script>
+<script src="http://maps.google.com/maps/api/js?sensor=true" type="text/javascript"></script>
+<!-- BeginOAWidget_Shared_2187524 -->
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<!-- EndOAWidget_Shared_2187524 -->
+<script type="text/xml">
+
+<!--
+<oa:widgets>
+  <oa:widget wid="2187524" binding="#mapCanvas" />
+</oa:widgets>
+-->
+</script>
+
+<noscript>
+<link rel="stylesheet" href="css/skel-noscript.css" />
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/style-desktop.css" />
+<link rel="stylesheet" href="css/style-noscript.css" />
+</noscript>
+<!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
+</head><body class="homepage">
+
+<!-- Header -->
+<div id="header"> 
+  
+  <!-- Inner -->
+  <div class="inner">
+    <header>
+      <h1>EGYPT</h1>
+      <hr />
+      <span class="byline">A Virtual Trip to Egypt</span> </header>
+    <footer> <a href="#banner" class="button circled scrolly">Start</a> </footer>
+  </div>
+  
+  <!-- Nav -->
+  <nav id="nav">
+    <ul>
+      <li><a href="start.html">Home</a></li>
+      <li> <span>Where to Go</span>
+        <ul>
+          <li><a href="alex.html">Alexandria</a></li>
+          <li><a href="giza.html">Giza</a></li>
+          <li><a href="lux.html">Luxor</a></li>
+          <li><a href="sharm.html">Sharm el-Sheikh</a></li>
+        </ul>
+      </li>
+      <li><a href="ancient.html">Ancient Egypt</a></li>
+
+    </ul>
+  </nav>
+</div>
+
+<!-- Banner -->
+<div id="banner">
+  <h2>Hi. You're Now in <strong>Egypt</strong>.</h2>
+  <span class="byline"> A unified kingdom was founded 3150 BC by King Menes, leading to a series of dynasties that ruled Egypt for the next three millennia </span> </div>
+
+<!-- Carousel -->
+<div class="carousel">
+  <div class="reel">
+    <article> <img src="images/pic01.jpg" alt="" width="300" />
+      <header>
+        <h3><a href="http://en.wikipedia.org/wiki/Abu_Simbel_temples" target="_blank">Abu Simbel </a></h3>
+      </header>
+      <p><span id="ContentPlaceHolder1_lblArticleDetails">The two temples at Abu Simbel among the most magnificent   monuments in the world.</span></p>
+    </article>
+    <article> <img src="images/pic02.jpg" alt="" width="300" />
+      <header>
+        <h3><a href="http://en.wikipedia.org/wiki/Great_Pyramid_of_Giza" target="_blank">Great Pyramid of Giza</a></h3>
+      </header>
+      <p>It's 756 feet long on each side, 450 feet high and is composed of 2,300,000 blocks of stone.</p>
+    </article>
+    <article> <img src="images/pic03.jpg" alt="" width="300" />
+      <header>
+        <h3><a href="http://en.wikipedia.org/wiki/Bibliotheca_Alexandrina" target="_blank">Bibliotheca Alexandrina</a></h3>
+      </header>
+      <p>The library has shelf space for 8 million books, with the main reading room covering  750,000 sq ft .</p>
+    </article>
+    <article> <img src="images/pic04.jpg" alt="" width="300" />
+      <header>
+        <h3><a href="http://www.scubadiving.com/travel/red-sea/egypts-red-sea" target="_blank">Red Sea Diving Resorts</a></h3>
+      </header>
+      <p>Egypt is without doubt one of the world's greatest diving locations, with opportunities for every age and ability.</p>
+    </article>
+    <article> <img src="images/pic00.jpg" alt="" width="300" />
+      <header>
+        <h3><a href="http://en.wikipedia.org/wiki/Stanley,_Alexandria,_Egypt" target="_blank">Stanley Bridge</a></h3>
+      </header>
+      <p>A master piece of architectureal precision, the bridge preserves the architectural style of Alexandria.</p>
+    </article>
+  </div>
+</div>
+
+<!-- Main -->
+<div class="wrapper style2">
+    <div id="mapCanvas" style="width:100%; height:100%; min-width:300px; min-height:300px"></div>
+    <script type="text/javascript">
+// BeginOAWidget_Instance_2187524: #mapCanvas
+
+	  // initialize the google Maps 	
+	
+     function initializeGoogleMap() {
+		// set latitude and longitude to center the map around
+		var latlng = new google.maps.LatLng(26.83577, 
+											30.79566);
+		
+		// set up the default options
+		var myOptions = {
+		  zoom: 5,
+		  center: latlng,
+		  navigationControl: true,
+		  navigationControlOptions: 
+		  	{style: google.maps.NavigationControlStyle.DEFAULT,
+			 position: google.maps.ControlPosition.TOP_LEFT },
+		  mapTypeControl: true,
+		  mapTypeControlOptions: 
+		  	{style: google.maps.MapTypeControlStyle.DEFAULT,
+			 position: google.maps.ControlPosition.TOP_RIGHT },
+
+		  scaleControl: true,
+		   scaleControlOptions: {
+        		position: google.maps.ControlPosition.BOTTOM_LEFT
+    	  }, 
+		  mapTypeId: google.maps.MapTypeId.ROADMAP,
+		  draggable: true,
+		  disableDoubleClickZoom: true,
+		  keyboardShortcuts: true
+		};
+		var map = new google.maps.Map(document.getElementById("mapCanvas"), myOptions);
+		if (false) {
+			var trafficLayer = new google.maps.TrafficLayer();
+			trafficLayer.setMap(map);
+		}
+		if (false) {
+			var bikeLayer = new google.maps.BicyclingLayer();
+			bikeLayer.setMap(map);
+		}
+		if (true) {
+			addMarker(map,26.83577,30.79566,"We are here");
+		}
+	  }
+
+	  window.onload = initializeGoogleMap();
+
+	 // Add a marker to the map at specified latitude and longitude with tooltip
+	 function addMarker(map,lat,long,titleText) {
+	  	var markerLatlng = new google.maps.LatLng(lat,long);
+	 	var marker = new google.maps.Marker({
+      		position: markerLatlng, 
+      		map: map, 
+      		title:"We are here",
+			icon: ""});   
+	 }
+
+	
+// EndOAWidget_Instance_2187524
+    </script>
+</div>
+
+<!-- Features -->
+
+
+<!-- Footer -->
+<div id="footer">
+  <div class="container">
+    <div class="row"> 
+      
+
+      <section class="4u">
+
+
+      </section>
+      
+
+
+
+      <div class="12u"> 
+        
+
+        <div class="copyright">
+
+            <p>&copy; 2014 Mostafa Elhity. All rights reserved.
+            Design: <a href="http://html5up.net/" target="_blank" class="copyright">HTML5 UP</a></p>
+        <a href="http://validator.w3.org/check/referer" target="_blank"><img src="../images/valid_html5.png" width="80" height="15" alt="html" /></a> </div>
+  </div>
+  </div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container {
+	margin-right: auto;
+	margin-left: auto;
+	width: 800px;
+	padding: 0px;
+	display: block;
+}
+header {
+	background-image: url(../502/images/header-mana1.jpg);
+	height: 200px;
+	width: auto;
+	border-radius: 15px;
+	display: block;
+}
+#main {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-size: 1.9em;
+	color: #FFF;
+	padding-left: 5px;
+	padding-top: 90px;
+}
+p {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	color: #FFF;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1em;
+	margin-right: 3px;
+	margin-bottom: 3px;
+	margin-left: 20px;
+	padding-bottom: 7px;
+	line-height: 21px;
+	margin-top: -3px;
+}
+h5 {
+	display: block;
+	border: thin solid #09F;
+	text-align: center;
+	width: 150px;
+	margin-right: auto;
+	margin-left: auto;
+	color: #13467B;
+	background-color: #FFF;
+	font-size: 1em;
+	margin-top: 0px;
+	border-radius: 5px;
+}
+h4 {
+	display: block;
+	text-align: center;
+}
+#none {
+	text-decoration: none;
+	color: #FFF;
+}
+section {
+	background-color: #13467B;
+	display: block;
+	padding: 3px;
+	border-radius: 10px;
+	color: #FFF;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h2 {
+	background-color: #FFF;
+	display: block;
+	color: #205283;
+	border-radius: 5px;
+	font-size: 20px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	padding-top: 0px;
+	padding-right: 3px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+	margin-top: 0px;
+	margin-right: 20px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+}
+body {
+	background-color: #09f;
+}
+#container section ol {
+	margin-top: 5px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+footer {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 9px;
+	color: #13467B;
+	background-color: #09F;
+	display: block;
+	text-align: center;
+	border: medium double #13467B;
+	border-radius: 15px;
+	width: 800px;
+	margin-top: 50px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	margin-right: auto;
+	margin-left: auto;
+	font-weight: bolder;
+}
+#container section ul li  {
+	color: #FF0000;
+	background-color: #FFF;
+	font-weight: bold;
+	padding: 3px;
+	border-radius: 10px;
+	margin-bottom: 7px;
+	margin-right: 20px;
+}
+aside {
+	float: right;
+	margin: 5px;
+	border: medium double #09F;
+	padding: 5px;
+	border-radius: 10px;
+}
+#container section aside h2 {
+	background-color: #FFF;
+	width: 200px;
+	text-transform: none;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}

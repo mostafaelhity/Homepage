@@ -1,0 +1,87 @@
+@charset "utf-8";
+#container {
+	display: block;
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #FFFFFF;
+}
+#main {
+	padding-top: 90px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 36px;
+	color: #FFFFFF;
+	padding-left: 3px;
+}
+header {
+	background-image: url(../502/images/accessibility.png);
+	display: block;
+	width: auto;
+	height: 200px;
+	border-radius: 15px;
+}
+section {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+.blue {
+	font-weight: normal;
+	color: #FFF;
+	background-color: #464682;
+	padding-left: 5px;
+	border-radius: 10px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	padding-right: 5px;
+	font-size: 1.1em;
+	margin-top: 5px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h2 {
+	line-height: 1px;
+	margin-bottom: 15px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+}
+.white {
+	border: thin solid #000;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	border-radius: 10px;
+	padding-top: 3px;
+	padding-right: 5px;
+	padding-bottom: 3px;
+	padding-left: 5px;
+	margin-top: 5px;
+	font-size: 1.1em;
+}
+h1 {
+	margin-top: 1px;
+	margin-bottom: 0px;
+}
+#container nav section {
+	display: inline;
+	border: thin solid #3F3F7C;
+	padding: 2px;
+	border-radius: 10px;
+	font-weight: bold;
+	color: #3D3D7A;
+	background-color: #FFF;
+	margin-right: 30px;
+	margin-left: 50px;
+}
+footer {
+	padding: 4px;
+	margin: 5px;
+	font-size: 9px;
+	display: block;
+	border-radius: 10px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+#container div nav section a {
+	text-decoration: none;
+}
+#container div nav {
+	border: thin solid #000;
+	padding: 5px;
+	border-radius: 10px;
+	margin-top: 4px;
+	background-color: #4A4A86;
+}
