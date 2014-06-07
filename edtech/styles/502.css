@@ -21,8 +21,7 @@ h2 {
 	line-height: 12px;
 }
 body {
-	background-color: #93C;
-background: linear-gradient(to right, #2D2F8A, #6D8CBA 70%, #293f50);	width:800px;
+background: linear-gradient( 45deg, #066, #09C);	width:800px;
 	margin-left:auto;
 	margin-right:auto;
 }
